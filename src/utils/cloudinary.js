@@ -33,4 +33,4 @@ const uploadOnCloudinary = async (localFilePath) => {
     }
 };
 
-export { uploadOnCloudinary }; // uploadOnCloudinary function ko export karo
+export  { uploadOnCloudinary }; // uploadOnCloudinary function ko export karo
