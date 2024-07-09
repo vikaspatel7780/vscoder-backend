@@ -3,8 +3,8 @@ import startServer from './db/index.js';
 
 startServer().
 then(()=>{
-    app.listen(5000,()=>{
-        console.log('server is runnning at port: 5000')
+    app.listen(process.env.PORT,()=>{
+        console.log(`server is runnning at port: ${process.env.PORT}`)
     })
 })
 .catch((error)=>{
